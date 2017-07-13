@@ -16,7 +16,7 @@ SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${PN}-${MY_PV}.tar.gz"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~x86"
-IUSE="vlc"
+IUSE=""
 
 DEPEND="
 	dev-python/beautifulsoup:4[${PYTHON_USEDEP}]
@@ -29,7 +29,6 @@ DEPEND="
 	dev-qt/qtwebkit:5
 "
 RDEPEND="${DEPEND}
-	vlc? ( media-video/vlc )
 "
 
 S="${WORKDIR}/${PN}-${MY_PV}"
@@ -37,8 +36,8 @@ S="${WORKDIR}/${PN}-${MY_PV}"
 python_install_all() {
 	distutils-r1_python_install_all
 
-	rm -f ${ED}/usr/bin/feeluown-{install-dev,genicon,update} || die "failed to remove arbitrary scripts!"
+	rm -f "${ED}"/usr/bin/feeluown-{install-dev,genicon,update} || die "failed to remove arbitrary scripts!"
 
-	domenu ${FILESDIR}/${MY_P}.desktop
-	newicon ${S}/feeluown/feeluown.png ${MY_P}.png
+	domenu "${FILESDIR}/${MY_P}.desktop"
+	newicon "${S}/feeluown/feeluown.png" "${MY_P}.png"
 }

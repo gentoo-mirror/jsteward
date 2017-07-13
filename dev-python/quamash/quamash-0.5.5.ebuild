@@ -19,7 +19,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc"
 
 DEPEND="doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
-	( || ( || ( dev-python/PyQt4 dev-python/PyQt5 ) dev-python/PySide ) )"
+	( || ( || ( dev-python/PyQt4 dev-python/PyQt5 ) dev-python/pyside ) )"
 RDEPEND="${DEPEND}"
 
 S="${WORKDIR}/${MY_P}-${PV}"
@@ -35,5 +35,3 @@ python_install_all() {
 	use doc && local HTML_DOCS=doc/build/html/.
 	distutils-r1_python_install_all
 }
-
-
