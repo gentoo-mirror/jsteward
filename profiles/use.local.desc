@@ -3,3 +3,7 @@
 # * generated automatically using pmaint *
 
 net-dialup/radcli:nettle - Use dev-libs/nettle for md5 support
+net-vpn/ocserv:anyconnect-compat - Enable AnyConnect client compatibility
+net-vpn/ocserv:gssapi - Enable GSSAPI support
+net-vpn/ocserv:lz4 - Enable support for LZ4 compression using app-arch/lz4
+net-vpn/ocserv:oath - Enable OTP support
