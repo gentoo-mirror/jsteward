@@ -1,14 +1,14 @@
 DEFINED_PHASES=configure install postinst prepare
-DEPEND=dev-libs/libev dev-libs/libevdev dev-libs/pcl dev-libs/protobuf-c dev-util/gperf net-libs/gnutls net-libs/http-parser net-libs/socket_wrapper sys-devel/autogen sys-libs/talloc sys-libs/uid_wrapper nettle? ( dev-libs/nettle ) oath? ( sys-auth/oath-toolkit ) gssapi? ( app-crypt/mit-krb5 ) occtl? ( dev-libs/libnl sys-libs/readline ) seccomp? ( sys-libs/libseccomp ) lz4? ( app-arch/lz4 ) pam? ( sys-libs/pam ) tcpd? ( sys-apps/tcp-wrappers ) systemd? ( sys-apps/systemd ) geoip? ( dev-libs/geoip ) radius? ( || ( net-dialup/freeradius-client net-dialup/radcli ) ) >=app-portage/elt-patches-20170317 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 virtual/pkgconfig
+DEPEND=dev-libs/libev dev-libs/libevdev dev-libs/pcl dev-libs/protobuf-c net-libs/gnutls net-libs/http-parser net-libs/socket_wrapper sys-devel/autogen sys-libs/talloc sys-libs/uid_wrapper nettle? ( dev-libs/nettle ) oath? ( sys-auth/oath-toolkit ) gssapi? ( app-crypt/mit-krb5 ) occtl? ( dev-libs/libnl:= sys-libs/readline:0= ) seccomp? ( sys-libs/libseccomp ) lz4? ( app-arch/lz4 ) pam? ( sys-libs/pam ) tcpd? ( sys-apps/tcp-wrappers ) systemd? ( sys-apps/systemd ) geoip? ( dev-libs/geoip ) radius? ( || ( net-dialup/freeradius-client net-dialup/radcli ) ) dev-util/gperf >=app-portage/elt-patches-20170317 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 virtual/pkgconfig
 DESCRIPTION=OpenConnect SSL VPN server.
 EAPI=6
 HOMEPAGE=http://ocserv.gitlab.io/www/index.html
 IUSE=tcpd pam +lz4 seccomp +occtl gssapi radius oath nettle systemd geoip +anyconnect-compat
 KEYWORDS=~x86
 LICENSE=GPL-2
-RDEPEND=dev-libs/libev dev-libs/libevdev dev-libs/pcl dev-libs/protobuf-c dev-util/gperf net-libs/gnutls net-libs/http-parser net-libs/socket_wrapper sys-devel/autogen sys-libs/talloc sys-libs/uid_wrapper nettle? ( dev-libs/nettle ) oath? ( sys-auth/oath-toolkit ) gssapi? ( app-crypt/mit-krb5 ) occtl? ( dev-libs/libnl sys-libs/readline ) seccomp? ( sys-libs/libseccomp ) lz4? ( app-arch/lz4 ) pam? ( sys-libs/pam ) tcpd? ( sys-apps/tcp-wrappers ) systemd? ( sys-apps/systemd ) geoip? ( dev-libs/geoip ) radius? ( || ( net-dialup/freeradius-client net-dialup/radcli ) ) app-misc/lockfile-progs
+RDEPEND=dev-libs/libev dev-libs/libevdev dev-libs/pcl dev-libs/protobuf-c net-libs/gnutls net-libs/http-parser net-libs/socket_wrapper sys-devel/autogen sys-libs/talloc sys-libs/uid_wrapper nettle? ( dev-libs/nettle ) oath? ( sys-auth/oath-toolkit ) gssapi? ( app-crypt/mit-krb5 ) occtl? ( dev-libs/libnl:= sys-libs/readline:0= ) seccomp? ( sys-libs/libseccomp ) lz4? ( app-arch/lz4 ) pam? ( sys-libs/pam ) tcpd? ( sys-apps/tcp-wrappers ) systemd? ( sys-apps/systemd ) geoip? ( dev-libs/geoip ) radius? ( || ( net-dialup/freeradius-client net-dialup/radcli ) ) app-misc/lockfile-progs
 SLOT=0
 SRC_URI=ftp://ftp.infradead.org/pub/ocserv/ocserv-0.11.8.tar.xz
 _eclass_exported_funcs=pkg_postinst:- src_prepare:- src_configure:- src_install:-
 _eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	libtool	e32ea84bf82cf8987965b574672dba93	multilib	97f470f374f2e94ccab04a2fb21d811e	systemd	e12dd5e3cf1f359292cea2a70abeba5f	toolchain-funcs	8fec6b1eb195836560e70b66d98fb163
-_md5_=ad938b74307ed25f020dbffba17be97a
+_md5_=edb66c82c3b0940f30baee710b7b4d24
