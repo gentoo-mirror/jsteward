@@ -5,4 +5,5 @@ dev-python/marshmallow 3.0.0_beta2: Library for converting complex datatypes to 
 dev-python/quamash 0.5.5: Implementation of the PEP 3156 Event-Loop with Qt.
 media-sound/feeluown 1.0.5.3 1.1.0_alpha2: A hackable music player for Netease Cloud Music
 net-dialup/radcli 1.2.8: A simple RADIUS client library
+net-proxy/shadowsocks-auto-redir 0.1.0: Automatic script to start shadowsocks-redir and configure routing table
 net-vpn/ocserv 0.11.8: OpenConnect SSL VPN server.
