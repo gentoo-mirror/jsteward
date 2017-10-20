@@ -7,5 +7,6 @@ dev-python/quamash 0.5.5: Implementation of the PEP 3156 Event-Loop with Qt.
 media-sound/feeluown 1.0.5.3 1.1.0_alpha2: A hackable music player for Netease Cloud Music
 media-tv/bgmi 1.3.5: BGmi is a cli tool for subscribed bangumi.
 net-dialup/radcli 1.2.8: A simple RADIUS client library
+net-proxy/haproxy 1.7.9: A TCP/HTTP reverse proxy for high availability environments
 net-proxy/shadowsocks-auto-redir 0.1.0 0.1.0_p1: Automatic script to start shadowsocks-redir and configure routing table
-net-vpn/ocserv 0.11.8: OpenConnect SSL VPN server.
+net-vpn/ocserv 0.11.8 0.11.9: OpenConnect SSL VPN server.
