@@ -1,5 +1,5 @@
 DEFINED_PHASES=configure prepare
-DEPEND=net-libs/gnutls nettle? ( dev-libs/nettle ) dev-util/abi-compliance-checker sys-devel/autoconf sys-devel/automake sys-devel/libtool >=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEPEND=net-libs/gnutls nettle? ( dev-libs/nettle ) dev-util/abi-compliance-checker sys-devel/autoconf sys-devel/automake sys-devel/libtool >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 DESCRIPTION=A simple RADIUS client library
 EAPI=6
 HOMEPAGE=http://radcli.github.io/radcli/
@@ -8,5 +8,5 @@ KEYWORDS=~x86
 LICENSE=radcli
 SLOT=0
 SRC_URI=https://github.com/radcli/radcli/releases/download/1.2.8/radcli-1.2.8.tar.gz
-_eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_eclasses_=autotools	ea7865c8fba1ea8d3639f355fffe1a3c	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
 _md5_=543ce2be69eddc184356bfa9b2b9277a
