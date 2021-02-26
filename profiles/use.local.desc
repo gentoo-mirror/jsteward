@@ -5,6 +5,10 @@
 net-dialup/radcli:nettle - Use dev-libs/nettle for md5 support
 net-misc/bird:client - Build the ncurses/readline full featured CLI
 net-misc/bird:mpls - Enable MPLS support in kernel protocol
+net-misc/tigervnc:dri3 - Build with DRI3 support
+net-misc/tigervnc:drm - Build with DRM support
+net-misc/tigervnc:server - Build TigerVNC server
+net-misc/tigervnc:xorgmodule - Build the Xorg module
 net-proxy/haproxy:51degrees - Device Detection using 51 Degrees
 net-proxy/haproxy:device-atlas - Use dev-libs/device-atlas-api-c library
 net-proxy/haproxy:net_ns - Enable network namespace support (CONFIG_NET_NS)
