@@ -1,6 +1,5 @@
 net-dialup/radcli 1.2.8: A simple RADIUS client library
 net-misc/bird 1.6.3 1.6.3-r1 2.0.2: A routing daemon implementing OSPF, RIPv2 & BGP for IPv4 or IPv6
-net-misc/tigervnc 1.10.90: Remote desktop viewer display system
 net-proxy/haproxy 2.1.2: A TCP/HTTP reverse proxy for high availability environments
 net-proxy/shadowsocks-auto-redir 0.1.0 0.1.0_p1: Automatic script to start shadowsocks-redir and configure routing table
 net-proxy/v2ray-redir 0.4: Automatic script to start v2ray-redir and configure routing table
