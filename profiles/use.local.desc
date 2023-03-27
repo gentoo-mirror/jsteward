@@ -5,13 +5,6 @@
 net-dialup/radcli:nettle - Use dev-libs/nettle for md5 support
 net-misc/bird:client - Build the ncurses/readline full featured CLI
 net-misc/bird:mpls - Enable MPLS support in kernel protocol
-net-proxy/haproxy:51degrees - Device Detection using 51 Degrees
-net-proxy/haproxy:device-atlas - Use dev-libs/device-atlas-api-c library
-net-proxy/haproxy:net_ns - Enable network namespace support (CONFIG_NET_NS)
-net-proxy/haproxy:pcre-jit - Use JIT support for PCRE
-net-proxy/haproxy:slz - Use dev-libs/libslz compression library
-net-proxy/haproxy:tools - Install additional tools (halog, iprange)
-net-proxy/haproxy:wurfl - Device Detection using WURFL
 net-vpn/ocserv:anyconnect-compat - Enable AnyConnect client compatibility
 net-vpn/ocserv:gssapi - Enable GSSAPI support
 net-vpn/ocserv:lz4 - Enable support for LZ4 compression using app-arch/lz4
