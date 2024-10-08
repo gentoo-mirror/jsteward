@@ -1,3 +1,1 @@
-net-dialup/radcli 1.2.8: A simple RADIUS client library
 net-misc/bird 1.6.3 1.6.3-r1 2.0.2: A routing daemon implementing OSPF, RIPv2 & BGP for IPv4 or IPv6
-net-vpn/ocserv 0.11.8 0.11.9 0.12.1: OpenConnect SSL VPN server.
